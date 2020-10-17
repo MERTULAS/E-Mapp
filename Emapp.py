@@ -155,7 +155,7 @@ class MailSettings:
             message["To"] = "{}".format(person)
             message["From"] = "{}".format(self.user_id)
             message["Subject"] = self.subject
-            self.text += "\n\nThis email was sent via E-Mapp.\nE-Mapp Source Code:https://github.com/MERTULAS"
+            self.text += "\n\nThis email was sent via E-Mapp.\nE-Mapp Source Code: https://github.com/MERTULAS/E-Mapp"
             content = MIMEText(self.text, "plain")
             message.attach(content)
             try:

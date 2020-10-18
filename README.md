@@ -18,7 +18,7 @@ E-Mapp is a message box application and has been designed with a simple interfac
 
 #### Dark mode can be turned on and off as the program theme.
 
-<img width="899" alt="image" src="https://user-images.githubusercontent.com/67822910/96375236-5dac6f80-1180-11eb-93cc-e71c80360d7e.png">
+<img width="832" alt="image" src="https://user-images.githubusercontent.com/67822910/96375669-022fb100-1183-11eb-9b73-4a99ae5d6c34.png">
 
 <img width="898" alt="image" src="https://user-images.githubusercontent.com/67822910/96375353-399d5e00-1181-11eb-9344-0e3048deaaea.png">
 

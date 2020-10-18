@@ -241,7 +241,7 @@ class MailSettings:
     def inbox_getter():
         inbox = []
         mail_inbox = imaplib.IMAP4_SSL("imap.gmail.com")
-        mail_inbox.login("h.mert.ulas@gmail.com", "hmfb342244oyun")
+        mail_inbox.login(ENTER_YOUR_MAIL_ADDRESS, ENTER_YOUR_MAIL_PASSWORD)
         status, messages = mail_inbox.select("INBOX")
         messages = int(messages[0])
         for i in range(messages, messages - 10, -1):

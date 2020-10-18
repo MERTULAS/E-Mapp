@@ -10,8 +10,6 @@ from email.mime.text import MIMEText
 import imaplib
 import email
 from email.header import decode_header
-import webbrowser
-import os
 
 
 class Window(QWidget):

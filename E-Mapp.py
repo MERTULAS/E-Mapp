@@ -102,7 +102,6 @@ class MailSettings:
 
     @staticmethod
     def inbox_getter(user_id, user_pass):
-        print(user_id, user_pass)
         inbox = []
         mail_inbox = imaplib.IMAP4_SSL("imap.gmail.com")
         mail_inbox.login(user_id, user_pass)
@@ -168,7 +167,6 @@ class Window(QWidget):
         self.scrollArea.setWidget(self.widget)
         self.layoutScrollArea = QVBoxLayout()
         self.inbox = MailSettings.inbox_getter(self.id, self.password)
-        print(self.inbox)
         for index, mail_in_inbox in enumerate(self.inbox):
             self.layoutScrollArea.addWidget(self.inbox_mails(mail_in_inbox))
         self.widget.setLayout(self.layoutScrollArea)
